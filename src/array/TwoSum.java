@@ -26,6 +26,7 @@ public class TwoSum {
 
         int[] ans = twoSum(nums, target);
         System.out.println(ans[0] + " " + ans[1]);
+
     }
 }
 
