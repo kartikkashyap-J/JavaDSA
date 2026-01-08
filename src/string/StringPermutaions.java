@@ -8,7 +8,7 @@ public class StringPermutaions {
             return false;
         }
         int[] s1Space=new int[26];
-        int[] s2Space=new int[26];
+        int[] s2Space=new int[26]; //Window
 
         for (int i=0;i<s1.length();i++){
             s1Space[s1.charAt(i)-'a']++;
@@ -37,7 +37,7 @@ public class StringPermutaions {
     }
     public static void main(String[] args){
         String s1="as";
-        String s2="abstract";
+        String s2="bas";
         System.out.println(stringPermutaions(s1,s2));
 
     }
